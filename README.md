@@ -1,1 +1,1 @@
-# GenAI-Projects-with-GeminiPro
+# GenAI-Projects
