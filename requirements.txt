@@ -16,3 +16,11 @@ pydeck
 scikit-learn
 wordcloud
 matplotlib
+st-pages
+python-dotenv
+requests
+openai
+
+tiktoken
+pypdf
+

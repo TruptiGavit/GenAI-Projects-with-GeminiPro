@@ -44,7 +44,7 @@ def main():
 
     
 
-    st.header("Gemini Application Invvoice extractor")
+    st.header("Gemini Application Invoice extractor")
     input=st.text_input("Input Prompt: ",key="input")
     uploaded_file = st.file_uploader("Choose an image of invoice ", type=["jpg", "jpeg", "png"])
     image=""   

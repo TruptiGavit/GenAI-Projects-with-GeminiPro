@@ -26,7 +26,7 @@ def main():
 ##streamlit app setup
 
 
-    st.header("Trupti's First Gemini Application")
+    st.header("Image to Text Generation")
     input=st.text_input("Input Prompt: ",key="input")
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])

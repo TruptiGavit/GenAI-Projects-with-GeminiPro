@@ -17,7 +17,7 @@ def get_gemini_response(question):
 ##streamlit
 def main():  
     
-    st.header("Trupti's First Gemini Application")
+    st.header("Ask Gemini Anything You wish to")
 
     #initialize session state
     if "chat_history" not in st.session_state:

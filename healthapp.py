@@ -39,7 +39,7 @@ def main():
 
     st.header("Gemini Health App")
     input=st.text_input("Input Prompt: ",key="input")
-    uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+    uploaded_file = st.file_uploader("Choose your food image...", type=["jpg", "jpeg", "png"])
     image=""   
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
